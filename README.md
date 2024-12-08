@@ -36,9 +36,9 @@ This project is a comprehensive system designed to aid software developers in ge
 ---
 
 ## **Folder Structure**
-── function_extrcator_v2.py  # Script for extracting function/method details
-── prompt_generator.py       # Class to refine user-defined prompts
-── call_llm.py               # Function to interact with LLM via Groq
-── exp.ipynb                 # End-to-end example notebook
-── README.md                 # Project documentation
-── requirements.txt          # Dependencies
+- function_extrcator_v2.py  # Script for extracting function/method details
+- prompt_generator.py       # Class to refine user-defined prompts
+- call_llm.py               # Function to interact with LLM via Groq
+- exp.ipynb                 # End-to-end example notebook
+- README.md                 # Project documentation
+- requirements.txt          # Dependencies
