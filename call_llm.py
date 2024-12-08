@@ -4,7 +4,7 @@ from loguru import logger
 import time
 
 
-def call_llm(system_msg: str, model_name: str, get_json: bool= True):
+def call_llm(system_msg: str, model_name: str, get_json: bool= True, seed: int = 100):
 
         # url = "https://api.groq.com/openai/v1"
         key = "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"
@@ -20,6 +20,7 @@ def call_llm(system_msg: str, model_name: str, get_json: bool= True):
             model=model_name,
             response_format={"type": "text" if not get_json else "json_object"},
             temperature=0,
+            seed= seed,
             messages=(
                 [
                     {
